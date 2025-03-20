@@ -27,15 +27,15 @@
     transform: 
         rotateY(calc( (var(--position) - 1) * (360 / var(--quantity)) * 1deg))
         translateZ(550px);
-    overflow: hidden; /* Added to contain images */
+    overflow: hidden; /* Added to contain videos */
     border-radius: 8px; /* Optional: adds rounded corners */
     box-shadow: 0 10px 30px rgba(0,0,0,0.3); /* Optional: adds depth */
 }
-.banner .slider .item img{
+.banner .slider .item video{
     width: 100%;
     height: 100%;
-    object-fit: cover; /* This ensures images maintain aspect ratio and fill the container */
-    object-position: center; /* Centers the image */
+    object-fit: cover; /* This ensures videos maintain aspect ratio and fill the container */
+    object-position: center; /* Centers the video */
 }
 .banner .content{
     position: absolute;
@@ -163,5 +163,3 @@
         font-size: 14px;
     }
 }
-
-/* change : Added animation for navigation controls */
