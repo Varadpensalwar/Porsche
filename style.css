@@ -1,17 +1,6 @@
 @import url('https://fonts.cdnfonts.com/css/ica-rubrik-black');
 @import url('https://fonts.cdnfonts.com/css/poppins');
 
-.logo {
-    width: 100px; /* Default size */
-    transition: 0.3s;
-  }
-  
-  @media (max-width: 768px) { /* Mobile breakpoint */
-    .logo {
-      width: 70px; /* Smaller for mobile */
-    }
-  }
-  
 .banner{
     width: 100%;
     height: 100vh;
